@@ -6,76 +6,57 @@
 </head>
 <body>
 
-<h1>👋 Hi, I'm learning DSA</h1>
+<h1>👋 Hi, I’m learning DSA</h1>
 
 <p>
-This repository contains my <b>Data Structures & Algorithms</b> practice using <b>Java</b>.
-I am a <b>self-taught programmer</b> and currently learning step by step by solving basic to intermediate problems.
+This repository contains my <b>Data Structures & Algorithms</b> practice.
+I am a <b>self-taught programmer</b> who is learning step by step and improving every day.
 </p>
 
 <p>
-This repo is not perfect — and that’s okay 🙂  
-I’m learning, making mistakes, fixing them, and improving every day.
+I am not perfect yet, I make mistakes, I fix them, and I learn from them.
+This repo is part of my learning journey ❤️
 </p>
 
 <hr>
 
-<h2>📂 Folder Structure</h2>
-
-<pre>
-DSAPractise/
-│
-├── Arrays/
-│   ├── ReverseArray.java
-│   ├── RotateArray.java
-│   ├── LargestElement.java
-│
-├── Basics/
-│   ├── ClassPractice.java
-│   ├── WhileLoop.java
-│
-└── README.md
-</pre>
-
-<hr>
-
-<h2>📘 What I'm Learning</h2>
+<h2>📘 What I’m Learning</h2>
 <ul>
-    <li>Arrays</li>
-    <li>Basic Java concepts</li>
-    <li>Loops & conditions</li>
-    <li>Problem-solving mindset</li>
+    <li>Data Structures & Algorithms</li>
+    <li>Problem-solving using Java</li>
+    <li>Programming fundamentals</li>
+    <li>Writing clean and understandable code</li>
+</ul>
+
+<hr>
+
+<h2>🛠 Tech Stack</h2>
+<ul>
+    <li><b>Java</b> – for DSA and core programming</li>
+    <li><b>Python</b> – currently learning and exploring</li>
+    <li><b>VS Code</b></li>
+    <li><b>Git & GitHub</b></li>
 </ul>
 
 <hr>
 
 <h2>🎯 My Goal</h2>
 <p>
-I want to build strong fundamentals in DSA and become confident in coding.
-This repo is part of my daily practice journey.
+My goal is to build strong fundamentals, improve problem-solving skills,
+and become confident in coding through consistent practice.
 </p>
-
-<hr>
-
-<h2>🛠 Tech Stack</h2>
-<ul>
-    <li>Java</li>
-    <li>VS Code</li>
-    <li>Git & GitHub</li>
-</ul>
 
 <hr>
 
 <h2>🌱 Note</h2>
 <p>
-I'm still learning, so the code may not always be perfect.
-But I'm improving every day 🚀  
-Feedback and suggestions are always welcome.
+I’m still learning, so the code may not always be perfect.
+But I’m giving my best every day and trying to improve little by little 🚀
 </p>
 
 <hr>
 
-<p><b>Thanks for visiting 🙌</b></p>
+<p><b>Thanks for visiting 🤍</b></p>
 
 </body>
 </html>
