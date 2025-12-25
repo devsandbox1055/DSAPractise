@@ -1,3 +1,4 @@
+package Arrays_Practise;
 public  class isPalindrome {
     public static void main(String[] args) {
         String s = "madam";
