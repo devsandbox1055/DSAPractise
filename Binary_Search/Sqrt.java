@@ -7,22 +7,22 @@ public class Sqrt {
         int ans = 0;
 
         while (low <= high){
-            int  mid  =  low+ (high -low)/2;
+            int  mid  =  low + (high -low)/2;
 
             if(mid * mid  == n) {
                 ans  = mid;
                 break;
-                }
-                else if (mid * mid < n){
+
+                } else if (mid * mid < n){
                     ans = mid;
                     low  = mid +1;
 
                 } else {
-                    high  = mid -1
+                    high  = mid -1;
                 }
  
                 }
-                System.out.println("square root of" + n + "is" + ans);
+                System.out.println(" square root of " + n + " is " + ans);
             }
 
     }
