@@ -24,3 +24,7 @@ public class ReverseANumber {
     }
     
 }
+
+//Har step pe last digit nikaalo,
+//rev ke aage chipkao,
+//number chhota kar do.
