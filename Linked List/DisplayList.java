@@ -11,10 +11,10 @@ public class DisplayList {
         displayRec(head.next);
     }
 
-    public static void display(Node head) {
-        Node temp = head;
-        while(temp != null){
-            System.out.print(temp.val+" ");
+    public static void display(Node head){ //function to print LL while passing head
+        Node temp  = head; // temporary node ban raha hai to store head
+        while(temp != null) { //Jab tak temp null nahi ho jaata, loop chalta rahe.
+            System.out.println(temp.val+" "); //Current node ka value print
             temp = temp.next;
         }
         System.out.println();

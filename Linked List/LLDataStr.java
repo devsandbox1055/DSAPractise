@@ -1,11 +1,11 @@
-class Node { //user defined data type
-    int val;
-    Node next;
+class Node { //Hum apna khud ka data type bana rahe hain jiska naam hai Node.
+    int val; // node ka value store karti hai
+    Node next; //reference / pointer hai jo next node ka address store karta hai
     Node(int val){ //iski default value null hai
         this.val = val;
     }
 }
-class Linkedlist{ //user defined data structure
+class Linkedlist{  //user defined data structure
     Node head; //default se hi null hai
     Node tail; //default se hi null hai
     
