@@ -9,6 +9,26 @@ class Linkedlist{  //user defined data structure
     Node head; //default se hi null hai
     Node tail; //default se hi null hai
     
+    void insert(int val, int idx) {
+        if(idx<0 || ids>size) {
+            System.out.println("invalid index");
+            return;
+
+        }
+        if(idx==0) addAtHead(val);
+        else if(idx==size) addAtTail(val);
+        else {
+            Node temp = head;
+            for(int i=1;i<=idx-1;i++){
+                temp=temp.next;
+
+            }
+            Node t  = new Node(val);
+            t.next = temp.next;
+            temp.next = t;
+            size++;
+        }
+    }
     void addAtHead(int val){
         Node temp  = new Node(val);
         if(head == null)head = tail = temp; //agar linkedL khaali hai to uske liye hai
@@ -25,7 +45,7 @@ class Linkedlist{  //user defined data structure
             tail = temp;
     }
 }
-void deleteAtHead(){
+    void deleteAtHead(){
     if(head == null){
         System.out.println("List is empty");
         return;
@@ -33,8 +53,7 @@ void deleteAtHead(){
     head  = head.next;
     if(head == null) tail = null;
 }
-
-void display() {
+    void display() {
         if(head==null) return;
         Node temp = head;
         while(temp != null) {
