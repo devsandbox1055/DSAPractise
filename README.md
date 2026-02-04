@@ -10,7 +10,8 @@
 
 <p>
 This repository contains my <b>Data Structures & Algorithms</b> practice.
-I am a <b>self-taught programmer</b> who is learning step by step and improving every day.
+I am a <b>self-taught programmer</b> who is learning step
+ by step and improving every day.
 </p>
 
 <p>
