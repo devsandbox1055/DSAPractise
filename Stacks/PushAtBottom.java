@@ -16,13 +16,7 @@ public class PushAtBottom {
         st.push(top); // uske baad phir se jo element top mein the ...unko stack mein daal diya
     }
 
-    private static void reverse(Stack<Integer> st){
-        if(st.size()<=1 ) return;
-        int top  = st.pop();
-        reverse(st);
-        ppushatbottom(st, top);
-    }
-    public static void main(String[] args) {
+        public static void main(String[] args) {
          
         Stack<Integer> st  = new Stack<>();
         st.push(10);
@@ -31,9 +25,6 @@ public class PushAtBottom {
 
         ppushatbottom(st, 5);
         System.out.println(st);
-        reverse(st);
-        System.out.println(st);
-
 
     }
 }    
