@@ -20,6 +20,12 @@ public class Implemention{
         c.left = f; c.right  = g;
         display(a);
         System.out.println(size(a));
+        sum(a);
+        System.out.println(sum(a));
+        max(a);
+        System.out.println(max(a));
+        levels(a);
+        System.out.println(levels(a));
     }
     private static void display(Node root){
         if(root==null) return; 
@@ -33,4 +39,17 @@ public class Implemention{
        if(root.left==null && root.right==null) return 1;
        return 1 + size(root.left) + size(root.right);
    }
+    private static int sum (Node root){
+        if(root==null) return 0;
+        return root.val+sum(root.left) + sum(root.right);
+    } 
+    private static int max(Node root){
+        if(root == null) return Integer.MIN_VALUE;
+        return Math.max(root.val,Math.max(max(root.left),max(root.right)));
+    }
+    private static int levels(Node root){
+        if (root == null) return 0;
+        return 1+ Math.max(levels(root.left),levels(root.right));
+
+}
 }
